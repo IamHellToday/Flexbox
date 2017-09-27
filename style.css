@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*PHOTOS*/
+.img-1 {background-image: url('https://chat.kodilla.com/file-upload/LoviahmyWcK4KAJ8t/Clipboard');}
+.img-2 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-3 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-4 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-5 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-6 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-7 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-8 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-9 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-10 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-11 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+.img-12 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg');}
+
+/*CODE*/
+.container {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.list-container>ul>li {
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: row;
+	list-style-type: none;
+	font-size: 24px;
+	padding: 10px;
+	transition: 0.3s
+}
+.list-container>ul>li>a {
+	text-decoration: none;
+	color: white;
+}
+.list-container>ul>li>a:hover {
+	opacity: 0.3;
+}
+.element {
+	height: 90px;
+	margin: 5px;
+	border-radius: 5px;
+	background-position: center;
+	background-size: cover;
+	transition: 1s;
+}
+.inside-container, .flex-column, .flex-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-column {
+	flex-direction: column;
+}
+.flex-1 {
+	flex: 1
+}
+body {
+	background-color: #131212;
+}
+h1 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	color: white;
+}
+.element-big {
+	height: 180px;
+}
+body:hover .element {
+	opacity: 0.3;
+}
+body .element:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+h3 {
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.flex-footer {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+	
